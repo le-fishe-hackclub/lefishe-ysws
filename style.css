@@ -1,0 +1,41 @@
+/* Centered button style */
+.center-btn {
+  color: rgb(3, 5, 19);
+  background: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px 28px;
+  font-size: 1.1em;
+  cursor: pointer;
+  margin: 18px 0;
+  transition: background 0.2s;
+  text-decoration: none; /* Make button links look like buttons */
+  display: inline-block;
+}
+.center-btn:hover {
+  background: #e0e7ff;
+}
+
+/* Style for link button */
+.center-link {
+  color: rgb(3, 5, 19);
+  background: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px 28px;
+  font-size: 1.1em;
+  cursor: pointer;
+  margin: 18px 0;
+  transition: background 0.2s;
+  text-decoration: none;
+  display: inline-block;
+}
+.center-link:hover {
+  background: #e0e7ff;
+}
+body {
+  background-image: url('https://hc-cdn.hel1.your-objectstorage.com/s/v3/f00256c682e1a087b06d8c0c6fab2338d7c2a18a_image.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
